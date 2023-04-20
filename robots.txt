@@ -1,0 +1,36 @@
+User-agent: Yandex
+Allow: /
+Crawl-delay: 5
+Disallow: /admin*
+Disallow: /img
+Disallow: /scripts*
+Disallow: /js*
+Disallow: /admin*
+Disallow: /templates*
+Disallow: /users*
+Disallow: /hero/sys*
+Disallow: /ckeditor*
+
+User-agent: Google
+Disallow: /admin
+Disallow: /img
+Disallow: /scripts
+Disallow: /js
+Disallow: /admin
+Disallow: /templates
+Disallow: /users
+Disallow: /hero/sys
+Disallow: /ckeditor
+
+User-agent:*
+Disallow: /admin
+Disallow: /img
+Disallow: /scripts
+Disallow: /js
+Disallow: /admin
+Disallow: /templates
+Disallow: /users
+Disallow: /hero/sys
+Disallow: /ckeditor
+
+Sitemap: http://overwatch-explained.ru/sitemap.xml
